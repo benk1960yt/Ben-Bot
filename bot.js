@@ -5,8 +5,6 @@ const perfix = "$"
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
   
-  bot.user.setPresence({ status: 'online', game: { name: '$help For Help' } });
-
 
 });
 
