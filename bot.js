@@ -4,6 +4,11 @@ const perfix = "$"
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
+  
+  bot.user.setStatus('Online')
+  
+  bot.user.setGame('$help For Help')
+
 });
 
 client.on('message', msg => {
